@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92596FE72C011A4500B77A30 /* GwenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92596FE62C011A4500B77A30 /* GwenApp.swift */; };
+		92596FE92C011A4500B77A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92596FE82C011A4500B77A30 /* ContentView.swift */; };
+		92596FEB2C011A4800B77A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92596FEA2C011A4800B77A30 /* Assets.xcassets */; };
+		92596FEE2C011A4800B77A30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92596FED2C011A4800B77A30 /* Preview Assets.xcassets */; };
+		92596FF82C011A4800B77A30 /* GwenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92596FF72C011A4800B77A30 /* GwenTests.swift */; };
+		925970022C011A4800B77A30 /* GwenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925970012C011A4800B77A30 /* GwenUITests.swift */; };
+		925970042C011A4800B77A30 /* GwenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925970032C011A4800B77A30 /* GwenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92596FF42C011A4800B77A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92596FDB2C011A4500B77A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92596FE22C011A4500B77A30;
+			remoteInfo = Gwen;
+		};
+		92596FFE2C011A4800B77A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92596FDB2C011A4500B77A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92596FE22C011A4500B77A30;
+			remoteInfo = Gwen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92596FE32C011A4500B77A30 /* Gwen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gwen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92596FE62C011A4500B77A30 /* GwenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GwenApp.swift; sourceTree = "<group>"; };
+		92596FE82C011A4500B77A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92596FEA2C011A4800B77A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92596FED2C011A4800B77A30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92596FF32C011A4800B77A30 /* GwenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GwenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92596FF72C011A4800B77A30 /* GwenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GwenTests.swift; sourceTree = "<group>"; };
+		92596FFD2C011A4800B77A30 /* GwenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GwenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925970012C011A4800B77A30 /* GwenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GwenUITests.swift; sourceTree = "<group>"; };
+		925970032C011A4800B77A30 /* GwenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GwenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92596FE02C011A4500B77A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92596FF02C011A4800B77A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92596FFA2C011A4800B77A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92596FDA2C011A4500B77A30 = {
+			isa = PBXGroup;
+			children = (
+				92596FE52C011A4500B77A30 /* Gwen */,
+				92596FF62C011A4800B77A30 /* GwenTests */,
+				925970002C011A4800B77A30 /* GwenUITests */,
+				92596FE42C011A4500B77A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92596FE42C011A4500B77A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92596FE32C011A4500B77A30 /* Gwen.app */,
+				92596FF32C011A4800B77A30 /* GwenTests.xctest */,
+				92596FFD2C011A4800B77A30 /* GwenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92596FE52C011A4500B77A30 /* Gwen */ = {
+			isa = PBXGroup;
+			children = (
+				92596FE62C011A4500B77A30 /* GwenApp.swift */,
+				92596FE82C011A4500B77A30 /* ContentView.swift */,
+				92596FEA2C011A4800B77A30 /* Assets.xcassets */,
+				92596FEC2C011A4800B77A30 /* Preview Content */,
+			);
+			path = Gwen;
+			sourceTree = "<group>";
+		};
+		92596FEC2C011A4800B77A30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				92596FED2C011A4800B77A30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92596FF62C011A4800B77A30 /* GwenTests */ = {
+			isa = PBXGroup;
+			children = (
+				92596FF72C011A4800B77A30 /* GwenTests.swift */,
+			);
+			path = GwenTests;
+			sourceTree = "<group>";
+		};
+		925970002C011A4800B77A30 /* GwenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				925970012C011A4800B77A30 /* GwenUITests.swift */,
+				925970032C011A4800B77A30 /* GwenUITestsLaunchTests.swift */,
+			);
+			path = GwenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92596FE22C011A4500B77A30 /* Gwen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925970072C011A4800B77A30 /* Build configuration list for PBXNativeTarget "Gwen" */;
+			buildPhases = (
+				92596FDF2C011A4500B77A30 /* Sources */,
+				92596FE02C011A4500B77A30 /* Frameworks */,
+				92596FE12C011A4500B77A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gwen;
+			productName = Gwen;
+			productReference = 92596FE32C011A4500B77A30 /* Gwen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92596FF22C011A4800B77A30 /* GwenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9259700A2C011A4800B77A30 /* Build configuration list for PBXNativeTarget "GwenTests" */;
+			buildPhases = (
+				92596FEF2C011A4800B77A30 /* Sources */,
+				92596FF02C011A4800B77A30 /* Frameworks */,
+				92596FF12C011A4800B77A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92596FF52C011A4800B77A30 /* PBXTargetDependency */,
+			);
+			name = GwenTests;
+			productName = GwenTests;
+			productReference = 92596FF32C011A4800B77A30 /* GwenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92596FFC2C011A4800B77A30 /* GwenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9259700D2C011A4800B77A30 /* Build configuration list for PBXNativeTarget "GwenUITests" */;
+			buildPhases = (
+				92596FF92C011A4800B77A30 /* Sources */,
+				92596FFA2C011A4800B77A30 /* Frameworks */,
+				92596FFB2C011A4800B77A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92596FFF2C011A4800B77A30 /* PBXTargetDependency */,
+			);
+			name = GwenUITests;
+			productName = GwenUITests;
+			productReference = 92596FFD2C011A4800B77A30 /* GwenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92596FDB2C011A4500B77A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					92596FE22C011A4500B77A30 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					92596FF22C011A4800B77A30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 92596FE22C011A4500B77A30;
+					};
+					92596FFC2C011A4800B77A30 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 92596FE22C011A4500B77A30;
+					};
+				};
+			};
+			buildConfigurationList = 92596FDE2C011A4500B77A30 /* Build configuration list for PBXProject "Gwen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92596FDA2C011A4500B77A30;
+			productRefGroup = 92596FE42C011A4500B77A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92596FE22C011A4500B77A30 /* Gwen */,
+				92596FF22C011A4800B77A30 /* GwenTests */,
+				92596FFC2C011A4800B77A30 /* GwenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92596FE12C011A4500B77A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92596FEE2C011A4800B77A30 /* Preview Assets.xcassets in Resources */,
+				92596FEB2C011A4800B77A30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92596FF12C011A4800B77A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92596FFB2C011A4800B77A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92596FDF2C011A4500B77A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92596FE92C011A4500B77A30 /* ContentView.swift in Sources */,
+				92596FE72C011A4500B77A30 /* GwenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92596FEF2C011A4800B77A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92596FF82C011A4800B77A30 /* GwenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92596FF92C011A4800B77A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925970022C011A4800B77A30 /* GwenUITests.swift in Sources */,
+				925970042C011A4800B77A30 /* GwenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92596FF52C011A4800B77A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92596FE22C011A4500B77A30 /* Gwen */;
+			targetProxy = 92596FF42C011A4800B77A30 /* PBXContainerItemProxy */;
+		};
+		92596FFF2C011A4800B77A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92596FE22C011A4500B77A30 /* Gwen */;
+			targetProxy = 92596FFE2C011A4800B77A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		925970052C011A4800B77A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Debug;
+		};
+		925970062C011A4800B77A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925970082C011A4800B77A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gwen/Preview Content\"";
+				DEVELOPMENT_TEAM = QB2T369883;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThrowCatchers.Gwen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		925970092C011A4800B77A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gwen/Preview Content\"";
+				DEVELOPMENT_TEAM = QB2T369883;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThrowCatchers.Gwen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		9259700B2C011A4800B77A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB2T369883;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThrowCatchers.GwenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gwen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gwen";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Debug;
+		};
+		9259700C2C011A4800B77A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB2T369883;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThrowCatchers.GwenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gwen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gwen";
+				TVOS_DEPLOYMENT_TARGET = 17.5;
+			};
+			name = Release;
+		};
+		9259700E2C011A4800B77A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB2T369883;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThrowCatchers.GwenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Gwen;
+			};
+			name = Debug;
+		};
+		9259700F2C011A4800B77A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QB2T369883;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThrowCatchers.GwenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = Gwen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92596FDE2C011A4500B77A30 /* Build configuration list for PBXProject "Gwen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925970052C011A4800B77A30 /* Debug */,
+				925970062C011A4800B77A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925970072C011A4800B77A30 /* Build configuration list for PBXNativeTarget "Gwen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925970082C011A4800B77A30 /* Debug */,
+				925970092C011A4800B77A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9259700A2C011A4800B77A30 /* Build configuration list for PBXNativeTarget "GwenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9259700B2C011A4800B77A30 /* Debug */,
+				9259700C2C011A4800B77A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9259700D2C011A4800B77A30 /* Build configuration list for PBXNativeTarget "GwenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9259700E2C011A4800B77A30 /* Debug */,
+				9259700F2C011A4800B77A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92596FDB2C011A4500B77A30 /* Project object */;
+}
